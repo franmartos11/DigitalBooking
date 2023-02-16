@@ -3,10 +3,56 @@
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--white);
-    padding: 20px;
+    padding: 15px 40px;
 }
 
-.buttons {
-    display: flex;
+
+
+.buttons button {
+    border: 2px solid var(--green);
+    color: var(--green);
+    background-color: var(--white);
+    display: none;
+}
+
+.buttons button:hover{
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.logoDesktop {
+    display: none;
+}
+
+.material-symbols-outlined{
+    font-size: 260%;
+    color: var(--blue);
+}
+
+@media (min-width: 768px) {
+    .buttons {
+        display: flex;
+        gap: 10px;
+        width: 90%; 
+        justify-content: flex-end;
+    }
+    .buttons button{
+        display: block;
+        width: 40%;
+    }
+    .material-symbols-outlined {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1025px) {
+    .logoDesktop {
+        display: flex;
+    }
+    .logoMobile {
+        display: none;
+    }
 }

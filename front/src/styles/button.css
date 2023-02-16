@@ -1,0 +1,11 @@
+
+button {
+    padding: 8px 70px;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+}
