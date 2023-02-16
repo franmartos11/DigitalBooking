@@ -1,0 +1,13 @@
+
+.category {
+    /* width: 90%; */
+    width: 373px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+@media (min-width:1000px) {
+    .category {
+        width: 335px;
+    }
+}
