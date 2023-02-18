@@ -13,6 +13,20 @@ body {
     flex-direction: column;
     background-color: var(--white);
     margin: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 2000px;
+    
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
 }
 
 .categories {

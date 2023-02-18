@@ -10,23 +10,25 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Searcher />
-      <div className='categories'>
-        <h3>Buscar por tipo de alojamiento</h3>
-        <div className='categories_contianer'>
-          <Category />
-          <Category />
-          <Category />
-          <Category />
+      <main>
+        <Searcher />
+        <div className='categories'>
+          <h3>Buscar por tipo de alojamiento</h3>
+          <div className='categories_contianer'>
+            <Category />
+            <Category />
+            <Category />
+            <Category />
+          </div>
         </div>
-      </div>
-      <div className="recomendations">
-        <h3>Recomendaciones</h3>
-        <div className='recomendations_container'>
-        <Card/>
-        <Card/>
+        <div className="recomendations">
+          <h3>Recomendaciones</h3>
+          <div className='recomendations_container'>
+          <Card/>
+          <Card/>
+          </div>
         </div>
-      </div>
+      </main>
       <Footer/>
     </div>
   );

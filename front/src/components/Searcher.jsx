@@ -7,8 +7,17 @@ function Searcher() {
     <div className='main_container'>
       <h1>Busca ofertas en hoteles, casa y mucho mas</h1>
       <div className='container' >
-        <input></input>
-        <input></input>
+        <form>
+          <select>
+            <option value="" disabled selected>A donde vamos?</option>
+              <hr />
+              <option>
+                <h1>San Carlos de Bariloche</h1> 
+                <p>Argentina</p>
+              </option>
+          </select>
+          <input></input>
+        </form>
         <Button></Button>
       </div>
 

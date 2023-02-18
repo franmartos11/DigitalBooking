@@ -4,9 +4,25 @@ footer {
     display: flex;
     background-color: var(--green);
     color: var(--white);
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
 }
+
+p {
+    font-weight: 500;
+}
+
+.footerIcons {
+    display: none;
+}
+
+@media (min-width: 500px) {
+    .footerIcons {
+        display: flex;
+        gap: 20px;
+        font-size: 150%;
+    }
+
+}
+

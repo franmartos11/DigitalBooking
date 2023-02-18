@@ -7,8 +7,10 @@ import "../styles/header.css"
 function Header() {
   return (
     <header>
+      <a href='#'>
       <img className='logoDesktop' src={logoDesktop} alt="a logo with two white upper and lower ds in a blue background and text that saids sentite como en tu hogar" />
       <img className='logoMobile' src={logoMobile} alt="a logo with two white upper and lower ds in a blue background " />
+      </a>
       <div className='buttons'>
       <Button text={"Crear Cuenta"} nameClass={"header"} />
       <Button text={"Iniciar Sesion"} nameClass={"header"} />
